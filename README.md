@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Desafio de criar uma imagem docker comi:
+Desafio de criar uma imagem docker com:
  - Um programa em Go que imprime "Full Cycle Rocks!!"
  - A imagem tem que ter menos de 2MB
  - Deve ser disponibilizada no Docker Hub
@@ -16,7 +16,7 @@ Imagem no docker hub: https://hub.docker.com/repository/docker/felipefinhane/fc-
 docker run felipefinhane/fc-docker-desafio-go
 ```
 
-## Localmente
+### Localmente
 
 ```bash
 docker build -t go-docker .
